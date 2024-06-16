@@ -44,10 +44,12 @@ TinyUrl: `https://tinyurl.co.il/14875`
    ```bash
    git clone https://github.com/ElkiGit/TinyURL
    cd tinyurl
+   ```
 Install the dependencies:
 
    ```bash
    npm install
+   ```
 Set up environment variables:
 
 Create a .env file in the root directory and add your MongoDB connection string.
@@ -56,10 +58,12 @@ plaintext
    ```bash
    MONGODB_URI=your_mongodb_connection_string
    PORT=3000
+  ```
 Start the application:
 
    ```bash
    npm start
+   ```
 Usage
 Register a User: Create a new user to use the service.
 Shorten a URL: Input a long URL to get a shortened version.
