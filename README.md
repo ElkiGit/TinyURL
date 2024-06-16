@@ -70,13 +70,13 @@ Shorten a URL: Input a long URL to get a shortened version.
 Track Clicks: Monitor the number of clicks and their sources on the shortened URLs.
 ##API Endpoints
 #User Routes
-*GET /users: Retrieve all users.
-*GET /users/
+ *GET /users: Retrieve all users.
+ *GET /users/
 : Retrieve a user by ID.
-*POST /users: Create a new user.
-*PUT /users/
+ *POST /users: Create a new user.
+ *PUT /users/
 : Update a user by ID.
-*DELETE /users/
+ *DELETE /users/
 : Delete a user by ID.
 #Link Routes
 *GET /links: Retrieve all links.
