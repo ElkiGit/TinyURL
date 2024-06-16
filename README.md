@@ -64,29 +64,31 @@ Start the application:
    ```bash
    npm start
    ```
-###Usage
-Register a User: Create a new user to use the service.
-Shorten a URL: Input a long URL to get a shortened version.
-Track Clicks: Monitor the number of clicks and their sources on the shortened URLs.
-##API Endpoints
-#User Routes
- *GET /users: Retrieve all users.
- *GET /users/
-: Retrieve a user by ID.
- *POST /users: Create a new user.
- *PUT /users/
-: Update a user by ID.
- *DELETE /users/
-: Delete a user by ID.
-#Link Routes
-*GET /links: Retrieve all links.
-*GET /links/
-: Retrieve a link by ID and redirect to the original URL while recording the click.
-*POST /links: Create a new link.
-*PUT /links/
-: Update a link by ID.
-*DELETE /links/
-: Delete a link by ID.
-Contributing
+### Usage
+
+- Register a User: Create a new user to use the service.
+- Shorten a URL: Input a long URL to get a shortened version.
+- Track Clicks: Monitor the number of clicks and their sources on the shortened URLs.
+
+## API Endpoints
+
+### User Routes
+
+- GET /users: Retrieve all users.
+- GET /users/<id>: Retrieve a user by ID.
+- POST /users: Create a new user.
+- PUT /users/<id>: Update a user by ID.
+- DELETE /users/<id>: Delete a user by ID.
+
+### Link Routes
+
+- GET /links: Retrieve all links.
+- GET /links/<id>: Retrieve a link by ID and redirect to the original URL while recording the click.
+- POST /links: Create a new link.
+- PUT /links/<id>: Update a link by ID.
+- DELETE /links/<id>: Delete a link by ID.
+
+### Contributing
+
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code adheres to the coding standards and includes appropriate tests.
 
